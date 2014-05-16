@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>New User Registration</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	</head>
+	<body>
+		
+		<!-- The Main wrapper div starts -->
+		<div class="container">
+			<!-- Navigation -->
+			<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+				<div class="container">
+				   
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="/">Home</a>
+							</li>
+							<li><a href="/about">About</a>
+							</li>
+							<li><a href="/directory">Directory</a>
+							</li>
+							<li><a href="/donate">Donate</a>
+							</li>
+							<li><a href="/contact">Contact</a>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav pull-right">
+							<li><a href="/login">Login</a>
+							</li>
+							<li><a href="/register">Register</a>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container -->
+			</nav>
+	    <br><br><br>
+		<div class="container">
+
+			<form action="/register" method="get">
+			  <div class="form-group">
+				<label for="alumnName">Name</label>
+				<input type="text" class="form-control" id="alumnName" name="alumnName">
+			  </div>
+			  
+			  <div class="form-group">
+				<label for="alumnSchool">School</label>
+				<input type="text" class="form-control" id="alumnSchool" name="alumnSchool">
+			  </div>
+
+
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		
+		</div>
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
